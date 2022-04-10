@@ -32,6 +32,7 @@ class Handler extends ExceptionHandler
      *
      * @return void
      */
+    //TODO:: Manejo de excepciones, se agrego al metodo register el manejo de la excepcion 404 para cuentas no existentes.
     public function register()
     {    
         $this->renderable(function (Throwable $e, $request) {
